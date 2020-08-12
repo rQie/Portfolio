@@ -49,10 +49,10 @@ Variables
   --fixed-width: 700px;
 }
 /*
-  =============== 
-  Global Styles
-  ===============
-  */
+=============== 
+Global Styles
+===============
+*/
 
 *,
 ::after,
@@ -203,10 +203,10 @@ p {
   color: var(--clr-primary-5);
 }
 /*
-  =============== 
-  Navbar
-  ===============
-  */
+=============== 
+Navbar
+===============
+*/
 
 .navbar {
   position: absolute;
@@ -282,10 +282,10 @@ p {
   }
 }
 /*
-  =============== 
-  Sidebar
-  ===============
-  */
+=============== 
+Sidebar
+===============
+*/
 .sidebar {
   background: var(--clr-grey-10);
   position: fixed;
@@ -338,10 +338,10 @@ p {
   }
 }
 /*
-  =============== 
-  Sidebar Animation
-  ===============
-  */
+=============== 
+Sidebar Animation
+===============
+*/
 .sidebar-links li {
   animation: slideRight 0.5s ease-in-out 0.3s forwards;
 }
@@ -401,10 +401,10 @@ p {
 }
 
 /*
-  =============== 
-  Hero
-  ===============
-  */
+=============== 
+Hero
+===============
+*/
 /* underline added to globals */
 .hero {
   margin-top: -5rem;
@@ -482,10 +482,10 @@ p {
 }
 
 /*
-  =============== 
-  Services
-  ===============
-  */
+=============== 
+Services
+===============
+*/
 .service {
   background: var(--clr-white);
   padding: 3rem 1.5rem;
@@ -535,10 +535,10 @@ p {
 }
 
 /*
-  =============== 
-  Jobs
-  ===============
-  */
+=============== 
+Jobs
+===============
+*/
 
 .jobs-center {
   width: 80vw;
@@ -625,10 +625,10 @@ p {
 }
 
 /*
-  =============== 
-  Projects
-  ===============
-  */
+=============== 
+Projects
+===============
+*/
 .projects {
   background: var(--clr-grey-10);
 }
@@ -747,10 +747,10 @@ p {
 }
 
 /*
-  =============== 
-  Blog
-  ===============
-  */
+=============== 
+Blog
+===============
+*/
 .blog {
   display: block;
   margin-bottom: 2rem;
@@ -822,10 +822,10 @@ p {
 }
 
 /*
-  ===============
-  Footer
-  ===============
-  */
+===============
+Footer
+===============
+*/
 .footer {
   height: 9rem;
   background: #222;
@@ -852,10 +852,10 @@ p {
   color: var(--clr-primary-5);
 }
 /*
-  ===============
-  Pages
-  ===============
-  */
+===============
+Pages
+===============
+*/
 .blog-template,
 .projects-page,
 .blog-page,
@@ -877,18 +877,18 @@ p {
   margin-bottom: 2rem;
 }
 /*
-  ===============
-  Blog Page
-  ===============
-  */
+===============
+Blog Page
+===============
+*/
 .blog-page .blog {
   background: var(--clr-white);
 }
 /*
-  ===============
-  About Page
-  ===============
-  */
+===============
+About Page
+===============
+*/
 .about-page {
   padding: 7rem 0;
 }
@@ -941,10 +941,10 @@ p {
   }
 }
 /*
-  ===============
-  Contact Page
-  ===============
-  */
+===============
+Contact Page
+===============
+*/
 .contact-page {
   display: grid;
   place-items: center;
@@ -996,10 +996,10 @@ p {
   border-top-left-radius: 0;
 }
 /*
-  ===============
-  Blog Template
-  ===============
-  */
+===============
+Blog Template
+===============
+*/
 .blog-template {
   padding: 5rem 0;
 }
