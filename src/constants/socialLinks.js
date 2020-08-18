@@ -11,7 +11,7 @@ const data = [
   {
     id: 1,
     icon: <FaFacebookSquare className="social-icon"></FaFacebookSquare>,
-    // url: "your social media link",
+    url: "https://www.facebook.com/rifqiea",
   },
   {
     id: 2,
