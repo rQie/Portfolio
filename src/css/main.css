@@ -1036,7 +1036,7 @@ Blog Template
   border-radius: var(--radius);
 }
 .blog-template img {
-  width: 25rem;
-  height: 20rem;
+  width: 15rem;
+  height: 15rem;
   margin: 3rem 0;
 }
