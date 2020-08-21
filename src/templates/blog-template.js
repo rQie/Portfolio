@@ -5,7 +5,7 @@ import ReactMarkdown from "react-markdown"
 // import SEO from "../components/SEO"
 
 const ComponentName = ({ data }) => {
-  const { content, title, desc } = data.blog
+  const { content } = data.blog
 
   return (
     <Layout>

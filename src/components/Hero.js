@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
-// import Image from "gatsby-image"
+import Image from "gatsby-image"
 import { Link } from "gatsby"
 import SocialLink from "../constants/socialLinks"
 
@@ -18,7 +18,7 @@ const query = graphql`
 const Hero = () => {
   const {
     file: {
-      childImageSharp: {},
+      childImageSharp: { fluid },
     },
   } = useStaticQuery(query)
   return (
@@ -35,7 +35,7 @@ const Hero = () => {
             <SocialLink />
           </div>
         </article>
-        {/* <Image fluid={fluid} className="hero-img" />; */}
+        <Image fluid={fluid} className="hero-img" />;
       </div>
     </header>
   )
