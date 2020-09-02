@@ -1,11 +1,6 @@
 import React from "react"
-import {
-  FaFacebookSquare,
-  FaLinkedin,
-  FaDribbbleSquare,
-  FaBehanceSquare,
-  FaTwitterSquare,
-} from "react-icons/fa"
+import { FaFacebookSquare, FaTwitterSquare } from "react-icons/fa"
+import { AiFillInstagram, AiFillGithub } from "react-icons/ai"
 
 const data = [
   {
@@ -14,24 +9,19 @@ const data = [
     url: "https://www.facebook.com/rifqiea",
   },
   {
+    id: 5,
+    icon: <FaTwitterSquare className="social-icon"></FaTwitterSquare>,
+    url: "https://twitter.com/Rifqie_Akma?s=09",
+  },
+  {
     id: 2,
-    icon: <FaLinkedin className="social-icon"></FaLinkedin>,
-    // url: "your social media link",
+    icon: <AiFillInstagram className="social-icon"></AiFillInstagram>,
+    url: "https://t.co/90uexxD1Om?amp=1",
   },
   {
     id: 3,
-    icon: <FaDribbbleSquare className="social-icon"></FaDribbbleSquare>,
-    // url: "your social media link",
-  },
-  {
-    id: 4,
-    icon: <FaBehanceSquare className="social-icon"></FaBehanceSquare>,
-    // url: "your social media link",
-  },
-  {
-    id: 5,
-    icon: <FaTwitterSquare className="social-icon"></FaTwitterSquare>,
-    // url: "your social media link",
+    icon: <AiFillGithub className="social-icon"></AiFillGithub>,
+    url: "https://github.com/rQie",
   },
 ]
 const links = data.map(link => {

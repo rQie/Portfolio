@@ -4,9 +4,9 @@ import Image from "gatsby-image"
 import { Link } from "gatsby"
 import SocialLink from "../constants/socialLinks"
 
-const query = graphql`
+export const query = graphql`
   {
-    file(relativePath: { eq: "hero-img.png" }) {
+    file(relativePath: { eq: "qie-img.PNG" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid
@@ -15,6 +15,7 @@ const query = graphql`
     }
   }
 `
+
 const Hero = () => {
   const {
     file: {
