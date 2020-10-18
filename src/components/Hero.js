@@ -31,12 +31,12 @@ const Hero = () => {
             <h1>RIFQIE AKMA</h1>
             <h4>freelance web and mobile development</h4>
             <Link to="/contact" className="btn">
-              contcact me
+              contact me
             </Link>
             <SocialLink />
           </div>
         </article>
-        <Image fluid={fluid} className="hero-img" />;
+        <Image fluid={fluid} className="hero-img" />
       </div>
     </header>
   )

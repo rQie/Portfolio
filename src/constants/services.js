@@ -5,7 +5,7 @@ export default [
     id: 1,
     icon: <FaCode className="service-icon" />,
     title: "web development",
-    text: `Perfect website comes with good design and user experience. I have involved in website design and development since 2011. Have worked over various platform`,
+    text: `Perfect website comes with good design and user experience. I have involved in website design and development since 2011. Have worked over various platforms`,
   },
   // {
   //   id: 2,
