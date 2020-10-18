@@ -2,11 +2,13 @@ import React from "react"
 import Title from "./Title"
 import services from "../constants/services"
 
+//in service-center i already change ui from 3 card to 2 card
+
 const Services = () => {
   return (
-    <section className="section bg-grey">
+    <section className="section bg-grey card-center">
       <Title title="services" />
-      <div className="section-center services-center">
+      <div className="section-center services-center ">
         {services.map(service => {
           const { id, icon, title, text } = service
 
