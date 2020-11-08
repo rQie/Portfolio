@@ -1,11 +1,10 @@
 import React from "react"
 import Layout from "../components/Layout"
-import { Helmet } from "react-helmet"
-
+import SEO from "../components/SEO"
 const contact = () => {
   return (
     <Layout>
-      <Helmet title="Contact  | Rifqie Akma" defer={false} />
+      <SEO title="Contact" />
       <section className="contact-page">
         <article className="contact-form">
           <h3>get in touch</h3>

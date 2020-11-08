@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import Projects from "../components/Projects"
-import { Helmet } from "react-helmet"
+import SEO from "../components/SEO"
 
 const projectsPage = ({
   data: {
@@ -11,7 +11,7 @@ const projectsPage = ({
 }) => {
   return (
     <Layout>
-      <Helmet title="Projects  | Rifqie Akma" defer={false} />
+      <SEO title="Projects" />
       <section className="projects-page">
         <Projects projects={projects} title="all projects" />
       </section>

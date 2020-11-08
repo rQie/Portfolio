@@ -1,11 +1,11 @@
 import React from "react"
-import { FaCode, FaSketch, FaAndroid } from "react-icons/fa"
+import { FaCode, FaAndroid } from "react-icons/fa"
 export default [
   {
     id: 1,
     icon: <FaCode className="service-icon" />,
     title: "web development",
-    text: `Perfect website comes with good design and user experience. I have involved in website design and development since 2011. Have worked over various platforms`,
+    text: `Website friendly comes with good design and user experiences. I have involved in website design and development since 2017. Usually, I use Gatsby framework to make website as it is faster than other static framework`,
   },
   // {
   //   id: 2,
@@ -17,6 +17,6 @@ export default [
     id: 3,
     icon: <FaAndroid className="service-icon" />,
     title: "app development",
-    text: `Mobile application developer in software development including design, development and testing as experiencing in mobile application operating system like android. Maintain high performance, reusable and reliable code`,
+    text: `Mobile application in software development including design, development and testing as experiencing in mobile application operating system like android. To maintain high performance and use reliable code for mobile app such as React Native framework`,
   },
 ]

@@ -1,12 +1,12 @@
 import React from "react"
 import Layout from "../components/Layout"
 import { Link } from "gatsby"
-import { Helmet } from "react-helmet"
+import SEO from "../components/SEO"
 
 const Error = () => {
   return (
     <Layout>
-      <Helmet title="error page  | Rifqie Akma" defer={false} />
+      <SEO title="error page" />
       <main className="error-page">
         <div className="error-container">
           <h1>oops it`s error 404</h1>

@@ -2,8 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import Blogs from "../components/Blogs"
-import { Helmet } from "react-helmet"
-
+import SEO from "../components/SEO"
 const blog = ({
   data: {
     allStrapiBlogs: { nodes: blogs },
@@ -11,7 +10,7 @@ const blog = ({
 }) => {
   return (
     <Layout>
-      <Helmet title="Blog  | Rifqie Akma" defer={false} />
+      <SEO title="Blog" />
       <section className="blog-page">
         <Blogs blogs={blogs} title="blog" />
       </section>
